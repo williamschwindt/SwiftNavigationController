@@ -10,8 +10,14 @@ import UIKit
 
 class ContactDetailsViewController: UIViewController {
 
+    @IBOutlet weak var ContactLabel: UILabel!
+    
+    var contact: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ContactLabel.text = contact
 
         // Do any additional setup after loading the view.
     }

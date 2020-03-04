@@ -39,8 +39,19 @@ class ContactsTableViewController: UITableViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "ShowContact" {
+            guard let contactDetailVC = segue.identifier as? ContactDetailsViewController else {
+                return
+            }
+            
+            guard let indexPath = tableView.indexPathForSelectedRow else {
+                return
+            }
+            
+            let contact = contacts[indexPath.row]
+            
+            contactDetailVC.contact = contact
+        }
     }
 
 }

@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="dH2-4a-Y6E" kind="show" id="wB1-gi-dJu"/>
+                                    <segue destination="dH2-4a-Y6E" kind="show" identifier="ShowContact" id="wB1-gi-dJu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -68,6 +68,9 @@
                         <viewLayoutGuide key="safeArea" id="MdO-I0-MQa"/>
                     </view>
                     <navigationItem key="navigationItem" id="xUO-aa-QYe"/>
+                    <connections>
+                        <outlet property="ContactLabel" destination="jon-KO-6Jd" id="8IJ-Jw-9y3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nm3-om-wyv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
