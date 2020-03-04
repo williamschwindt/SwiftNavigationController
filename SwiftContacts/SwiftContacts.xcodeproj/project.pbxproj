@@ -15,6 +15,8 @@
 		3D9A52E4241026A700E8850B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9A52E2241026A700E8850B /* LaunchScreen.storyboard */; };
 		3D9A52EF241026A700E8850B /* SwiftContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A52EE241026A700E8850B /* SwiftContactsTests.swift */; };
 		3D9A52FA241026A700E8850B /* SwiftContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A52F9241026A700E8850B /* SwiftContactsUITests.swift */; };
+		3D9A530A241035C300E8850B /* ContactDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A5309241035C300E8850B /* ContactDetailsViewController.swift */; };
+		3D9A530C241035E700E8850B /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A530B241035E700E8850B /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3D9A52F5241026A700E8850B /* SwiftContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9A52F9241026A700E8850B /* SwiftContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftContactsUITests.swift; sourceTree = "<group>"; };
 		3D9A52FB241026A700E8850B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9A5309241035C300E8850B /* ContactDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsViewController.swift; sourceTree = "<group>"; };
+		3D9A530B241035E700E8850B /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3D9A52D9241026A600E8850B /* SceneDelegate.swift */,
 				3D9A52DB241026A600E8850B /* ViewController.swift */,
 				3D9A52DD241026A600E8850B /* Main.storyboard */,
+				3D9A5309241035C300E8850B /* ContactDetailsViewController.swift */,
+				3D9A530B241035E700E8850B /* ContactsTableViewController.swift */,
 				3D9A52E0241026A700E8850B /* Assets.xcassets */,
 				3D9A52E2241026A700E8850B /* LaunchScreen.storyboard */,
 				3D9A52E5241026A700E8850B /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				3D9A52DC241026A600E8850B /* ViewController.swift in Sources */,
 				3D9A52D8241026A600E8850B /* AppDelegate.swift in Sources */,
+				3D9A530C241035E700E8850B /* ContactsTableViewController.swift in Sources */,
+				3D9A530A241035C300E8850B /* ContactDetailsViewController.swift in Sources */,
 				3D9A52DA241026A600E8850B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
